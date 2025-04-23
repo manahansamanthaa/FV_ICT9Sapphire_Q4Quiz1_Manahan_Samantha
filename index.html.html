@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FV_ICT9Sapphire_Q4Quiz1_Manahan_Samantha</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	<style>
+		h1{
+			font-family: fantasy;
+		}
+		body{
+			background-color: #f2d6a2;
+		}
+		container{
+			text-align: center;
+		}
+
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+<br>
+<center>
+	<h1>Know your BMI!</h1>
+</br>
+	<p>BMI (Body mass index) is a way to calculate your weight and height.</p>
+	<p>There are four (4) categories: Underweight, Normal weight, Overweight and Obese</p>
+<br>
+	<div class = "container">
+         <br>
+	<input type = "number" class ="form-control" id="num1">
+		<br><br>
+		<kbd id="result1">Input your weight in KILOGRAMS</kbd>
+		<br><br>
+	  <input type = "number" class ="form-control" id="num1">
+		<br><br>
+		<kbd id="result1">Input your height in METERS</kbd>
+		<br><br>
+		<button type ="button" class ="btn btn-warning" onclick="RndResult()">Calculate</button>
+	</div>
+	<script>
+		if (weight<18.5){
+			window.alert("Underweight");
+		}
+		else{ 
+			window.alert("NOT Underweight");
+		}
+		if (weight>=18.5 and <=24.9){
+			window.alert("Normal weight");
+		}
+		else{ 
+			window.alert("NOT Normal weight");
+		}
+		if (weight>25 and <=29.9){
+			window.alert("Overweight");
+		}
+		else{ 
+			window.alert("NOT Overweight");
+		}
+		if (weight>=30){
+			window.alert("Obese");
+		}
+		else{ 
+			window.alert("NOT Obese");
+		}
+	</script>
+
+
+
+
+
+</body>
+</html>
